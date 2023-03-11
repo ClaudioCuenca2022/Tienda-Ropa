@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../img/background-1824828_1920.jpg);
+}
+
+h1 {
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav-li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  list-style: none;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  padding: 0 1.5rem;
+}
+.nav-li li:hover {
+  color: crimson;
+  cursor: pointer;
+}
+.menu__link--select {
+  color: crimson;
+}
+.head-principal {
+  border-bottom: 5px solid black;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  z-index: 1;
+}
+.info-cards {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.foto-card {
+  padding: 20px 20px 100px 20px;
+  width: 80%;
+  height: 70%;
+  background-color: white;
+  box-shadow: 15px 30px 45px black;
+  transition: all 0.3s ease-in-out;
+}
+.foto-card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.parrafo-card {
+  width: 350px;
+  margin-top: 5px;
+  font-weight: bold;
+  backdrop-filter: blur(5px);
+  color: wheat;
+  border-radius: 30%;
+}
+
+.corcho {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  translate: 80% 0%;
+}
+.foto-vintage h3 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+.btn-vintage {
+  outline: none;
+  background: none;
+  border: none;
+  color: white;
+  background-color: crimson;
+  padding: 0.5rem 4rem;
+}
+h2 {
+  text-align: center;
+  margin: 10px 0;
+  margin-bottom: 20px;
+  font-family: "Libre Baskerville", serif;
+  text-decoration: underline;
+  font-size: 3rem;
+  color: crimson;
+}
+.nueva-temporada {
+  margin: 20px 0;
+}
+
+.redes {
+  margin-left: 5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+footer {
+  margin-top: 30px;
+  display: flex;
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .nav-li {
+    font-size: 0.8rem;
+  }
+  .btn-vintage {
+    padding: 0.5rem 2rem;
+  }
+}
