@@ -167,6 +167,13 @@ footer {
     display: block;
     
   }
+  .foto-vintage{
+    width: 100vh;
+    justify-content: center;
+  }
+  i.fa-solid .fa-bars {
+    font-size: 100px ;
+  }
 }
 
 /*@media screen and (max-width: 600px) {
