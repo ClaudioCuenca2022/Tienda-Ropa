@@ -10,6 +10,7 @@
       type="image/x-icon"
       title="Viajes"
     />
+    <!--Fuente de los iconos-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -39,15 +40,21 @@
   <body>
     <header class="head-principal">
       <h1 class="principal">Old Clothing</h1>
+      <button id="abrir" class="abrir-menu">
+        <i class="fa-regular fa-bars"></i>
+      </button>
       <div>
-        <nav class="nav">
+        <nav class="nav" id="nav">
+          <button id="cerrar" class="cerrar-menu">Cerrar</button>
           <ul class="nav-li">
-            <li class="menu__link menu__link--select">Inicio</li>
-            <li>Nosotros</li>
-            <li>Productos</li>
-            <li>Novedades</li>
-            <li>Tendencia</li>
-            <li>Contacto</li>
+            <li class="menu__link menu__link--select">
+              <a href="#"></a> Inicio
+            </li>
+            <li><a href="#"></a> Nosotros</li>
+            <li><a href="#"></a> Productos</li>
+            <li><a href="#"></a> Novedades</li>
+            <li><a href="#"></a> Tendencia</li>
+            <li><a href="#"></a> Contacto</li>
           </ul>
         </nav>
       </div>
@@ -66,7 +73,7 @@
           <p class="parrafo-card">
             Camisa Seda blanca y Pantalon blanco, especial verano
           </p>
-          <button class="btn-vintage">+Info</button>
+          <button class="btn-vintage"><a href="#"></a> +Info</button>
         </article>
         <article class="foto-vintage">
           <h3>Conjunto</h3>
@@ -84,7 +91,7 @@
           <p class="parrafo-card">
             Outfit con estilos de figuras color pastel, promocion
           </p>
-          <button class="btn-vintage">+Info</button>
+          <button class="btn-vintage"><a href="#"></a> +Info</button>
         </article>
         <article class="foto-vintage">
           <h3>Conjunto</h3>
@@ -93,7 +100,7 @@
           <p class="parrafo-card">
             Outfit con estilos de figuras color pastel, liquidacion
           </p>
-          <button class="btn-vintage">+Info</button>
+          <button class="btn-vintage"><a href="#"></a> +Info</button>
         </article>
       </section>
       <div class="card-nueva-temporada">
@@ -107,7 +114,7 @@
           <p class="parrafo-card">
             Camisa Seda blanca y Pantalon blanco, especial verano
           </p>
-          <button class="btn-vintage">+Info</button>
+          <button class="btn-vintage"><a href="#"></a> +Info</button>
         </article>
         <article class="foto-vintage">
           <h3>Conjunto</h3>
@@ -116,7 +123,7 @@
           <p class="parrafo-card">
             Camisa Seda blanca y Pantalon blanco, especial verano
           </p>
-          <button class="btn-vintage">+Info</button>
+          <button class="btn-vintage"><a href="#"></a> +Info</button>
         </article>
         <article class="foto-vintage">
           <h3>Conjunto</h3>
@@ -125,7 +132,7 @@
           <p class="parrafo-card">
             Outfit con estilos de figuras color pastel, promocion verano
           </p>
-          <button class="btn-vintage">+Info</button>
+          <button class="btn-vintage"><a href="#"></a> +Info</button>
         </article>
       </section>
     </main>
@@ -141,5 +148,6 @@
         </div>
       </footer>
     </section>
+    <script src="./js/main.js"></script>
   </body>
 </html>
