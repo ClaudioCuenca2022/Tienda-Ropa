@@ -66,6 +66,7 @@ h1 {
   padding: 5px;
   background-color: white;
   text-align: center;
+  position: relative;
 }
 .card-foto {
   padding: 5px 20px 50px 20px;
